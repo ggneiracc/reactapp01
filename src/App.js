@@ -6,10 +6,11 @@ import C02contador from './component/C02contador';
 function App() {
   return (
     <div>
-      <h3>Primer componente</h3>
+      <h1>Primer componente</h1>
       <C01componente />
-      <h3>Seguncom componente</h3>
+      <h1>Segundo componente</h1>
       <C02contador />
+      <h1>Tercer componente</h1>
     </div>
   );
 }
